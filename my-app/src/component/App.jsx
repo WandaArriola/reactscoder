@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <div  id="" className="">
-   var NewComponent = React.createClass({
-  render: function() {
+   var NewComponent = React.createClass(
+  render: function() 
     return (
 
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -49,8 +49,8 @@ function App() {
         </div>
       </nav>
     );
-  }
-});
+  
+);
     </div>
   );
 }

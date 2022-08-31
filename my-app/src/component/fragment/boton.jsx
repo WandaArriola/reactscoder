@@ -3,7 +3,7 @@ import React from 'react';
 const Boton = () => {
     return (
         <>
-           <button className='btn btn-dark'>buenas nochesz</button> 
+           <button className='btn btn-dark'>Buscar Productos</button> 
         </>
     );
 }

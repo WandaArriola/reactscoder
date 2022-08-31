@@ -3,6 +3,8 @@
 import React from 'react';
 import Form from './Form';
 import Boton from './boton';
+import Cards from './CartWidge';
+import CartWidge from './CartWidge';
 
 const NavBar = () => {
   return (
@@ -22,9 +24,12 @@ const NavBar = () => {
           <li className="nav-item">
             <a className="nav-link" href="#">Features</a>
           </li>
+       
          
         </ul>
        <Form boton ={<Boton/>}/>
+      
+       <CartWidge/>
       </div>
     </div>
   </nav>
@@ -35,3 +40,7 @@ const NavBar = () => {
 
 export default NavBar;
 
+
+function ItenListContainer () {
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, omnis sunt! Magni quis aliquid officia </p>
+}

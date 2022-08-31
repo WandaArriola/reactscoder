@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Form from './Form';
+import Boton from './boton';
 
 const NavBar = () => {
   return (
@@ -23,7 +24,7 @@ const NavBar = () => {
           </li>
          
         </ul>
-       <Form contBuscar="Productos"/>
+       <Form boton ={<Boton/>}/>
       </div>
     </div>
   </nav>

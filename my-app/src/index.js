@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './component/NavBar.jsx';
+import App from './component/fragment/NavBar.jsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

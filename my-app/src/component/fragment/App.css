@@ -1,4 +1,12 @@
-.titulos {
-  background-color: blue;
-  color: black;
+.counter-box {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: blue;
+backdrop-filter: blur (4 px);
+margin: 10px;
+-webkit-backdrop-filter: blur(4px);
+width: 500px;
+height: 350px;
 }

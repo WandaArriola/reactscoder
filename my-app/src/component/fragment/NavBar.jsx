@@ -2,8 +2,7 @@
 
 import React from 'react';
 import Form from './Form';
-import Boton from './boton';
-import Cards from './CartWidge';
+import Boton from './Boton';
 import CartWidge from './CartWidge';
 
 const NavBar = () => {

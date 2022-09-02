@@ -4,6 +4,7 @@ import Boton from './Boton';
 import Form from './Form';
 import ItenListContainer from './ItenListContainer';
 import NavBar from './NavBar';
+import PokeContainer from '../PokeContainer';
 
 
 
@@ -12,12 +13,12 @@ function App ()  {
        
         <div className='App'>
             <NavBar/>
-            
             <Form/>
             <Boton/>
-            
             <ItenListContainer/>
+            <PokeContainer/>
         </div>
+            
     );
 }
 

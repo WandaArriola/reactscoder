@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+/*import { useEffect, useState } from "react";
 
 
 const PokeContainer = () => {
@@ -7,12 +7,12 @@ const PokeContainer = () => {
 
     useEffect(() => {
        fetch ("https://jsonplaceholder.typicode.com/comments")
-       .them ((res) => res.json())
-       .them ((response) => console.log (response.results))
+       .then ((res) => res.json())
+       .then ((response) => console.log (response.results))
        
     }, []);
    
 } 
 
 
-export default PokeContainer;
+export default PokeContainer;*/

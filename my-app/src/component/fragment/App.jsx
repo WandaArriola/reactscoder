@@ -4,8 +4,8 @@ import Boton from './Boton';
 import Form from './Form';
 import ItenListContainer from './ItenListContainer';
 import NavBar from './NavBar';
-import PokeContainer from '../PokeContainer';
 
+import Productos from './Productos';
 
 
 function App ()  {
@@ -16,7 +16,8 @@ function App ()  {
             <Form/>
             <Boton/>
             <ItenListContainer/>
-            <PokeContainer/>
+            
+            <Productos/>
         </div>
             
     );

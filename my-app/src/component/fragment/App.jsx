@@ -4,9 +4,8 @@ import Boton from './Boton';
 import Form from './Form';
 import ItenListContainer from './ItenListContainer';
 import NavBar from './NavBar';
-
 import Productos from './Productos';
-
+import Dolar from './Dolar';
 
 function App ()  {
     return (
@@ -16,8 +15,8 @@ function App ()  {
             <Form/>
             <Boton/>
             <ItenListContainer/>
-            
             <Productos/>
+            <Dolar/>
         </div>
             
     );

@@ -1,9 +1,9 @@
 
 
 import React from 'react';
-import Form from './Form';
-import Boton from './Boton';
-import CartWidge from './CartWidge';
+import Form from '../Form/Form';
+import Boton from '../Buton/Boton';
+import CartWidge from '../Card/CartWidge';
 
 const NavBar = () => {
   return (

@@ -1,16 +1,17 @@
-import {React, useState, useEffect} from 'react';
+
+/*import {React, useState, useEffect} from 'react';
 
 const Dolar = () => {
     
     const [dolar, setDolar] = useState ({})
-    useEffect (() => {
+    useEffect (() => { 
         fetch('https://criptoya.com/api/dolar')
         .then (response => response.json())
         .then (({solidario, mep, blue}) => {
             setDolar(Object.entries({solidario, mep, blue}).map((dolar, indice) => 
             
             <div key={indice}>
-                <p>Dolar{dolar[0]}: $ {dolar[1]}</p>
+                <p>Dolar{dolar[0]}: $ {dolar[1]}</p>
             </div>
        ))
         }) 
@@ -18,10 +19,9 @@ const Dolar = () => {
     
     return (
         <> 
-           {dolar}
+         
         </>
     );
 }
 
-export default Dolar;
-
+export default Dolar;*/

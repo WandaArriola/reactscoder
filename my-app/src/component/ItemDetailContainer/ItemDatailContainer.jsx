@@ -23,7 +23,7 @@ const ItemDatailContainer = () => {
         <div id ="item-detail-container">
             {
                 loading?
-                    <div>Cragando...</div>
+                    <div>Cargando...</div>
                 :
                     < ItemDetail {...product}/>
             }

@@ -18,11 +18,11 @@ function App ()  {
             <Boton/>
             <ItenListContainer/>
             <Productos/>
-            
+            <ItemDatailContainer/>
         </div>*/
+        
     }
 
-    <ItemDatailContainer/>
     </>
     );
 }

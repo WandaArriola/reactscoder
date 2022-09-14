@@ -6,15 +6,15 @@ export const array = [
         title: "Remera 1",
         description: "elmento bla bla",
         price: 4100,
-        Picture: "",
+        Picture: "img/img3.jpg",
 
     },
-    {
+    { 
         id: 2,
         title: "Remera 2", 
         description: "elmento ble ble",
         price: 2200,
-        Picture: ""
+        Picture: "img/img8.jpg"
 
     }
 ]

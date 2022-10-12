@@ -4,10 +4,11 @@ import {array }from "../../Data/Data"
 import { GetArray } from '../Helpers/GetArray';
 import {ItemDetail} from './ItemDetail';
 
+
 const ItemDatailContainer = () => {
     
     const [product, SetProduct] = useState ({})
-    const [loading, SetLoading] = useState ({})
+    const [loading, SetLoading] = useState (true)
     
     useEffect(() => {
         GetArray(array)

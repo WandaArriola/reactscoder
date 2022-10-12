@@ -3,18 +3,34 @@
 export const array = [
     {
         id: 1 ,
-        title: "Remera 1",
-        description: "elmento bla bla",
-        price: 4100,
-        Picture: "img/img3.jpg",
+        title: "Vela Yaguarete",
+        description: "Peso de la vela 120gr",
+        price: 1500,
+        Picture: "img/",
 
     },
     { 
         id: 2,
-        title: "Remera 2", 
-        description: "elmento ble ble",
-        price: 2200,
+        title: "Vela Flamenco", 
+        description: "Peso de la vela 200gr",
+        price: 2000,
         Picture: "img/img8.jpg"
+
+    },
+    { 
+        id: 3,
+        title: "Vela Tatu", 
+        description: "Peso de la vela 300gr",
+        price: 2500,
+        Picture: "img/p3.jpg"
+
+    },
+    { 
+        id: 4,
+        title: "Vela Coati", 
+        description: "Peso de la vela 400gr",
+        price: 3000,
+        Picture: "img/p4.jpg"
 
     }
 ]

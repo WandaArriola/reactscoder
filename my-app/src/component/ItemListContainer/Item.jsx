@@ -1,18 +1,25 @@
 import React from 'react';
-import {Card, Button} from "react-bootstrap"
+
 
 const Item = ({title, description, price, picture}) => {
-    return (
-        <Card style={{ width: '18rem' }} id="item">
-      <Card.Img variant="top" src={picture} />
-      <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Title> Precio: $ {price}</Card.Title>
-        <Card.Text>{description}</Card.Text>
-        <Button variant="primary">Ver mas</Button>
-      </Card.Body>
-    </Card>
-    );
+   
+  return (
+   
+    <div className='Cards'>
+        <div className="card border-primary mb-3" id="item"style={{ maxWidth: '15rem', margin: '5px' }}>
+    <div className="card-header">{title}</div>
+    <div className="card-body">
+        <p className="card-text">Descripcion: {description}</p>
+        <p className="card-text"> Precio $ {price}</p>
+        <p className="card-text">  {picture}</p>
+    </div>
+</div>
+    </div>
+   
+
+  )
+
+  
 }
 
-export default Item;s
+export default Item;

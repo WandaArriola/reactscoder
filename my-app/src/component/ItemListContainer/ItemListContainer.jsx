@@ -13,7 +13,7 @@ export const ItemListlContainer= ({greeting}) => {
     const [loading, setLoading] = useState (true)
     
     useEffect (() => {
-       /*setLoading (true)*/
+       setLoading (true)
         GetArray (array)
            .then (res=> setProducts(res))
            .catch (err=> console.log(err))
@@ -27,7 +27,7 @@ export const ItemListlContainer= ({greeting}) => {
             loading?
                      <div>Cargando2...</div>
                 :
-                   /* <div>{JSON.stringify(products)}</div>*/
+                  /* <div>{JSON.stringify(products)}</div>*/
                     <ItemList items={products}/>
             }
         </div>

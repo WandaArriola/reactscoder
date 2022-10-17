@@ -1,8 +1,8 @@
 
 export const GetArray = (array) => {
-    return new Promise((resolver, reject) => {
+    return new Promise((resolve, reject) => {
         setTimeout (() => {
-            resolver (array)
+            resolve (array)
     }, 2000)
 })
 }

@@ -1,22 +1,19 @@
 import React from 'react';
 
-
-const Item = ({title, description, price, picture}) => {
+const Item = ({title, description, price, pictureUrl}) => {
    
   return (
-   
-    <div className='Cards'>
-        <div className="card border-primary mb-3" id="item"style={{ maxWidth: '15rem', margin: '5px' }}>
-    <div className="card-header">{title}</div>
-    <div className="card-body">
-        <p className="card-text">Descripcion: {description}</p>
-        <p className="card-text"> Precio $ {price}</p>
-        <p className="card-text">  {picture}</p>
-    </div>
-</div>
-    </div>
-   
 
+       
+  <div id="item" className="card" style={{width: '18rem'}}>
+  <img src={pictureUrl} className="card-img-top" alt="..." />
+  <div className="card-body">
+    <h5 className="card-title">{title}</h5>
+    <p className="card-text">{description}</p>
+    <p className="card-text">Precio ${price}</p>
+    <a href="#" className="btn btn-primary">Ver mas</a>
+  </div>
+</div>
   )
 
   

@@ -27,10 +27,12 @@ const ItemCount = ({stock, onAdd}) => {
         <div>
 
             <div id='counter-box'>
+                <h1 className='h1count'>Contador</h1>
+                <p>Stock: {stock}</p>
+                <p>Cantidad: {count}</p>
+
+
                 <div className="button-count">
-                    <h1 className='h1count'>Contador</h1>
-                    <p>Stock: {stock}</p>
-                    <p>Cantidad: {count}</p>
                     <button className='btn' onClick={substract}> - </button>
                     <button className='btn' onClick={reset}> Reset</button>
                     <button className='btn' onClick={add}> + </button>

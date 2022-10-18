@@ -5,7 +5,7 @@ import { GetArray } from '../Helpers/GetArray';
 import {ItemDetail} from './ItemDetail';
 
 
-const ItemDatailContainer = () => {
+const ItemDetailContainer = () => {
     
     const [product, SetProduct] = useState ({})
     const [loading, SetLoading] = useState (true)
@@ -13,7 +13,7 @@ const ItemDatailContainer = () => {
     useEffect(() => {
         GetArray(array)
             .then(res =>{
-                const item = res.find ((item) => item.id === 1)
+                const item = res.find ((item) => item.id === 2)
                 SetProduct (item)
             })
             .catch(err => console.log (err))
@@ -32,4 +32,4 @@ const ItemDatailContainer = () => {
     );
 }
 
-export default ItemDatailContainer;
+export default ItemDetailContainer;

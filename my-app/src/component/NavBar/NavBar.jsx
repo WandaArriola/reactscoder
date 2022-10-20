@@ -1,4 +1,3 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import CartWidge from './CartWidge';
@@ -32,6 +31,5 @@ const NavBar = () => {
 }
 
 export default NavBar;
-
 
 

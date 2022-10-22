@@ -1,0 +1,19 @@
+#item-list-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(65, 53, 53, 0.328);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #item{
+        border: 1px;
+        width: 200px ;
+        height: 400px;
+        margin: 20px;
+        font-size: 2vh;
+    }
+}
+
+#letra-boton{
+    color: black;
+}

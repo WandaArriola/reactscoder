@@ -7,7 +7,7 @@ export const array = [
         description: "Peso de la vela 120gr",
         price: 1500,
         PictureUrl: "./public/img/p1.jpg",
-        category: "vela chica"
+        category: "yaguarete"
 
     },
     { 
@@ -16,7 +16,7 @@ export const array = [
         description: "Peso de la vela 200gr",
         price: 2000,
         PictureUrl: "img/img8.jpg",
-        category: "vela chica"
+        category: "flamenco"
     },
     { 
         id: 3,
@@ -24,7 +24,7 @@ export const array = [
         description: "Peso de la vela 300gr",
         price: 2500,
         PictureUrl: "img/p3.jpg",
-        category: "vela grande"
+        category: "tatu",
 
     },
     { 
@@ -33,7 +33,7 @@ export const array = [
         description: "Peso de la vela 400gr",
         price: 3000,
         PictureUrl: "img/p4.jpg",
-        category: "vela grande"
+        category: "coati",
 
     }
 ]

@@ -16,6 +16,3 @@ const ItenContainerCounter = () => {
 }
 
 export default ItenContainerCounter;
-
-
-

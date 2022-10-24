@@ -7,7 +7,7 @@ import { useState } from "react"
 import ItemList  from "./ItemList"
 import "./StyleItemListContainer.scss"
 import { useParams } from "react-router-dom"
-import Item from "./Item"
+/*import Item from "./Item"*/
 
 export const ItemListlContainer= ({greeting}) => {
     

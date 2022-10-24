@@ -1,31 +1,28 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
+import React from 'react'
 import CartWidge from './CartWidge';
 import "./StyleNavBar.scss"
-
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
-     <a className="navbar-brand" >Fuego Nativo</a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon" />
-      </button>
+     <a> Fuego Nativo</a>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+            <Link to="/" className='nav-link' >Inicio</Link>
           </li>
           
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Productos
-            </a>
+             Productos</a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a className="dropdown-item" href="#">Acción</a></li>
-              <li><a className="dropdown-item" href="#">Otra acción</a></li>
-              <li><a className="dropdown-item" href="#">Algo más aquí</a></li>
+                <Link to="/" className='nav-link' >Vela Yafuareté</Link>
+                <Link to="/" className='nav-link' >Vela Flamenco</Link>
+                <Link to="/" className='nav-link' >Vela Tatú</Link>
+                <Link to="/" className='nav-link' >Vela Coatí</Link>
             </ul>
           </li>
         </ul>

@@ -16,13 +16,13 @@ const NavBar = () => {
           </li>
           
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
              Productos</a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <Link to="/" className='nav-link' >Vela Yafuareté</Link>
-                <Link to="/" className='nav-link' >Vela Flamenco</Link>
-                <Link to="/" className='nav-link' >Vela Tatú</Link>
-                <Link to="/" className='nav-link' >Vela Coatí</Link>
+                <Link to={"/category/yaguarte"} className='nav-link' >Vela Yafuareté</Link>
+                <Link to={"/category/ flamenco"} className='nav-link' >Vela Flamenco</Link>
+                <Link to={"/category/ tatu"} className='nav-link' >Vela Tatú</Link>
+                <Link to= {"/category/ coati"} className='nav-link' >Vela Coatí</Link>
             </ul>
           </li>
         </ul>
@@ -30,27 +30,6 @@ const NavBar = () => {
       </div>
     </div>
   </nav>
-    /*<nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">Fuego Nativo</a>
-
-            <div className="collapse navbar-collapse" id="navbarColor02">
-              <ul className="navbar-nav me-auto">
-                <li className="nav-item">
-                  <a className="nav-link active" href="#">Home
-                    <span className="visually-hidden">(current)</span>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">Productos</a>
-                </li>
-              </ul>
-              <CartWidge />
-            </div>
-          </div>
-     </nav>*/
-      
-  
   );
 }
 

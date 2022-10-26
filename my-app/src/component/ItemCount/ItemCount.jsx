@@ -29,7 +29,7 @@ const ItemCount = ({stock, onAdd}) => {
             <div id='counter-box'>
                 <h1 className='h1count'>Contador</h1>
                 <p>Stock: {stock}</p>
-                <p>Cantidad: {count}</p>
+                <p>Cantidad: {count}</p> 
 
 
                 <div className="button-count">

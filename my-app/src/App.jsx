@@ -15,13 +15,11 @@ function App ()  {
         
         <BrowserRouter>
         <NavBar/>
-        <Routes>
-        <Route path="/" element={<ItemListlContainer/>}/>
-        <Route path='/category/:categoryId' element={<ItemListlContainer/>}/>
-        <Route path='/item/:itemId' element={<ItemDetailContainer/>}/>
-        
-
-        </Routes>
+            <Routes>
+                <Route path="/" element={<ItemListlContainer/>}/>
+                <Route path='/category/:categoryId' element={<ItemListlContainer/>}/>
+                <Route path='/item/:itemId' element={<ItemDetailContainer/>}/>
+            </Routes>
         </BrowserRouter>
    
         </>

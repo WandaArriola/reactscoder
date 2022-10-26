@@ -5,7 +5,6 @@ import {array }from "../../Data/Data"
 import { GetArray } from '../Helpers/GetArray';
 import {ItemDetail} from './ItemDetail';
 
-
 const ItemDetailContainer = () => {
     
     const [product, SetProduct] = useState ({})

@@ -6,7 +6,7 @@ export const array = [
         title: "Vela Yaguarete",
         description: "Peso de la vela 120gr",
         price: 1500,
-        PictureUrl: "./public/img/p1.jpg",
+        PictureUrl: "./img/p1.jpg",
         category: "yaguarete"
 
     },

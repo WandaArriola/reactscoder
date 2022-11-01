@@ -4,6 +4,7 @@ import CartWidge from './CartWidge';
 import "./StyleNavBar.scss"
 import { Link } from 'react-router-dom';
 
+
 const NavBar = () => {
   return (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">

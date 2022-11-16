@@ -1,11 +1,11 @@
 import React from 'react';
 import "./ItemDetailContainer.scss"
 import ItenContainerCounter from '../ItemCount/ItemContainerCounter';
-export const ItemDetail= ({id,title,description,price, pictureUrl}) => {
+export const ItemDetail= ({id,title,description,price, PictureUrl}) => {
     return (
         <div id= "item-detail">
             <div id ="portada">
-                <img src ={pictureUrl} alt={title}/>
+                <img src ={PictureUrl} alt={title}/>
             </div>
             <div id= "date">
                 <h1>id{id}</h1>

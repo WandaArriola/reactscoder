@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./StyleItemListContainer.scss"
-const Item = ({id, title, description, price, pictureUrl}) => {
+const Item = ({id, title, description, price, PictureUrl}) => {
    
   return (
   <div id="item" className="card" style={{width: '18rem'}}>
-  <img src={pictureUrl} className="card-img-top" alt="..." />
+  <img src={PictureUrl} className="card-img-top" alt="top-ing" />
   <div className="card-body">
     <h5 className="card-title">{title}</h5>
     <p className="card-text">{description}</p>
